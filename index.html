@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>The Dime Technology</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Impact
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">info.thedimetechnology@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><i class="bi bi-whatsapp d-flex align-items-center ms-2"></a></i><span><a href="https://wa.me/9779801024024" target="_blank" rel="noopener">+977 9801024024</a></span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <!-- Place this where you want the date & time to appear (usually in your header) -->
+<div id="datetime" style="text-align: right; font-size: 14px; color: #ffffff; font-weight: 500;"></div>
+
+<script>
+function updateDateTime() {
+  const now = new Date();
+  const options = { 
+    weekday: 'short', year: 'numeric', month: 'short', 
+    day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' 
+  };
+  document.getElementById('datetime').textContent = now.toLocaleDateString('en-US', options);
+}
+
+// Update every second
+setInterval(updateDateTime, 1000);
+updateDateTime();
+</script>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">The Dime Technology</h1>
+          <span>.</span>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home<br></a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="our project.html">Our Projects</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section accent-background">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-5 justify-content-between">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2><span>Welcome to </span><span class="accent">The Dime Technology</span></h2>
+            <p>Your Freelance Tech Partner</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="assets/img/video/shahid.mp4" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2">
+            <img src="assets/img/hero-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
+        <div class="container position-relative">
+          <div class="row gy-4 mt-5">
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-motherboard-fill"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Ideate</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-easel-fill"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Design</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-file-code-fill"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Develop</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-truck"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Deliver</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us<br></h2>
+        <p>At The Dime Technology, we are driven by a passion for digital excellence. Our team is dedicated to creating innovative digital solutions that propel businesses forward and set new standards in quality and performance. We believe in delivering outstanding experiences through continuous improvement, creativity, and cutting-edge technology.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3>Driven by Passion for Digital Excellence.</h3>
+            <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
+            <p>With every project, our goal is to exceed expectations by combining strategic thinking, user-centered design, and technical expertise. We embrace new ideas and adapt quickly to the evolving digital landscape, ensuring our clients stay ahead of their competition.</p>
+            <p>Our commitment to operational effectiveness, customer-centric solutions, and integrity guides every step of our journey. Whether you are starting a project, reimagining your business, or seeking ongoing digital support—we are here to help you achieve lasting results and growth through digital excellence.</p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                Key Values at a Glance
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Innovation and creativity at every turn.</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Relentless pursuit of quality and improvement.​</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Strategic solutions tailored to each client’s needs​.</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>​Reliable support and transparent communication.</span></li>
+              </ul>
+              <p>
+                We value innovation and creativity, striving for quality in everything we do. Each project receives strategic solutions tailored to our clients, and our commitment to reliable support and transparent communication builds lasting trust.
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
+                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/mazenet.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/fourtytwo.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/permitech.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/systemcanada.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/absinfosys.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/infonet.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/sunrise.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/wispgate.jpg" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- Stats Section -->
+<section id="stats" class="stats section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4 align-items-center">
+
+      <div class="col-lg-5">
+        <img src="assets/img/stats-img.svg" alt="Company Statistics" class="img-fluid">
+      </div>
+
+      <div class="col-lg-7">
+        <div class="row gy-4">
+
+          <div class="col-lg-6 col-md-6">
+            <div class="stats-item d-flex align-items-center">
+              <i class="bi bi-emoji-smile flex-shrink-0"></i>
+              <div class="ms-3">
+                <span class="purecounter with-suffix"
+                      data-purecounter-start="0"
+                      data-purecounter-end="50"
+                      data-purecounter-duration="1"
+                      data-suffix="+"></span>
+                <p class="mb-0"><strong>Successful Projects</strong></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="stats-item d-flex align-items-center">
+              <i class="bi bi-journal-richtext flex-shrink-0"></i>
+              <div class="ms-3">
+                <span class="purecounter with-suffix"
+                      data-purecounter-start="0"
+                      data-purecounter-end="97"
+                      data-purecounter-duration="1"
+                      data-suffix="%"></span>
+                <p class="mb-0"><strong>Customer Satisfaction Rate</strong></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="stats-item d-flex align-items-center">
+              <i class="bi bi-headset flex-shrink-0"></i>
+              <div class="ms-3">
+                <span class="purecounter with-suffix"
+                      data-purecounter-start="0"
+                      data-purecounter-end="30"
+                      data-purecounter-duration="1"
+                      data-suffix="+"></span>
+                <p class="mb-0"><strong>IT Professionals</strong></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="stats-item d-flex align-items-center">
+              <i class="bi bi-people flex-shrink-0"></i>
+              <div class="ms-3">
+                <span class="purecounter with-suffix"
+                      data-purecounter-start="0"
+                      data-purecounter-end="15"
+                      data-purecounter-duration="1"
+                      data-suffix="+"></span>
+                <p class="mb-0"><strong>Years of Experience</strong></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Styles -->
+<style>
+  /* Make sure counters and suffix share same font and sit inline */
+  .stats-item .with-suffix {
+    display: inline-flex;        /* keeps number and pseudo-element on same line */
+    align-items: baseline;       /* aligns symbol with number baseline */
+    white-space: nowrap;         /* prevents wrap */
+    font-family: inherit;
+    font-size: 1.9rem;           /* adjust as needed */
+    line-height: 1;
+    font-weight: 700;
+    color: #008375 !important; /* Apply color to number */
+  }
+
+  /* Use ::after to append the + or % from the data-suffix attribute */
+  .stats-item .with-suffix::after {
+    content: attr(data-suffix);
+    font-size: 1.0em;           /* use em to match the number size; tweak if required */
+    font-weight: 700;           /* same weight as number */
+    margin-left: 0.28rem;       /* small spacing between number and symbol */
+    vertical-align: baseline;   /* keep symbol on same baseline as number */
+    color: #008375; /* match number color */
+  }
+
+  /* Smaller screens: scale down slightly */
+  @media (max-width: 576px) {
+    .stats-item .with-suffix { font-size: 1.4rem; }
+  }
+
+  /* optional: ensure paragraph doesn't push symbol down */
+  .stats-item p { margin-top: 4px; margin-bottom: 0; font-size: 0.95rem; color: #333; }
+</style>
+
+<!-- /Stats Section -->
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <p>We provide a comprehensive range of services designed to help businesses and individuals succeed in the digital landscape. Our experienced team combines technical expertise with creative problem-solving to deliver solutions that are efficient, scalable, and user-friendly.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-gear"></i>
+              </div>
+              <h3>Development & Maintenance</h3>
+              <p>Providing end-to-end software development and ongoing maintenance services to ensure the longevity and functionality of applications.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-code-square"></i>
+              </div>
+              <h3>Code Review & Optimization</h3>
+              <p>Conducting comprehensive code reviews to enhance quality, identify vulnerabilities, and improve overall performance.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <h3>Collaboration & Project Management</h3>
+              <p>Facilitating efficient team collaboration and streamlined project execution to ensure clarity, accountability, and on-time delivery.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bug"></i>
+              </div>
+              <h3>Support & Bug Fixes</h3>
+              <p>Delivering post-development support, troubleshooting, and bug resolution to maintain system stability and reliability.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <h3>Integration & Deployment</h3>
+              <p>Implementing seamless integration and smooth deployment processes to ensure your solutions run efficiently within existing environments.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <h3>Innovation & Continuous Improvement</h3>
+              <p>Driving ongoing innovation and improvement to keep solutions aligned with evolving technologies and business goals.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Team</h2>
+        <p>Our team is a diverse group of dedicated professionals united by a passion for innovation and excellence. With expertise across multiple disciplines, we collaborate effectively to deliver outstanding solutions that drive results.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <h4>Senior ASP.NET Developer</h4>
+              <span></span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              <h4>Senior Java Developer</h4>
+              <span></span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              <h4>Senior Python and AI Developer</h4>
+              <span></span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <h4>Senior Cyber Security</h4>
+              <span></span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <h4>Senior Network Security</h4>
+              <span></span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <h4>Senior DevOps Engineer</h4>
+              <span></span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <h4>Senior WordPress Developer</h4>
+              <span></span>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <h4>Senior Php and Flutter Deverloper</h4>
+              <span></span>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>We value the trust our clients place in us and are proud to have contributed to their success. Here are some of their experiences working with our team, highlighting our commitment to quality, communication, and delivering results that matter.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 10
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/USA.jpg" class="testimonial-img" alt="">
+                <h3>Ashley</h3>
+                <h4>United States</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Very efficient, works at a nice pace and is very willing to work with you.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/joseph.jpg" class="testimonial-img" alt="">
+                <h3>Priyesh Joseph</h3>
+                <h4>United State</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid and team Successfully completed the project on time. Those guys are awesome to work with.
+
+</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/mazenet.jpg" class="testimonial-img" alt="">
+                <h3>Mazenet Solution</h3>
+                <h4>Ashok Raj DK-
+                  Sr.Web Development</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>I was very impressed with the quality of work that was delivered. I highly recommend Shahid for any project.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/joseph.jpg" class="testimonial-img" alt="">
+                <h3>Priyesh Joseph</h3>
+                <h4>United States</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Well, done shahid and team. Shahid and his team demonstrated great enthusiasm over the course of the project. He was extremely responsive to my messages and requests. I was very satisfied with the output of the project. Would definitely be rehired and highly recommended!!. His  team is serious about meeting deadlines and the quality was as expected. I like his teams quick to respond to messages and questions.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/joseph.jpg" class="testimonial-img" alt="">
+                <h3>Priyesh Joseph</h3>
+                <h4>United States</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid and his team were instrumental in helping me complete the network security project well in advance. It was good working with Shahid and the team, he was promptly available, and the team was able to guide us through the process remotely. His team is very knowledgeable about networking and fast in his thinking and responses, would recommend.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/yousuf.jpg" class="testimonial-img" alt="">
+                <h3>Yousuf Motors</h3>
+                <h4>Sara Jama-Social Media Manager</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid did amazing work, I will definitely hire again.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/joseph.jpg" class="testimonial-img" alt="">
+                <h3>Priyesh Joseph</h3>
+                <h4>United States</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Great team and great experience.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/systemcanada.jpg" class="testimonial-img" alt="">
+                <h3>System Cadana</h3>
+                <h4>Alvin-CEO</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Thanks for the great input.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/malaysia.jpg" class="testimonial-img" alt="">
+                <h3>Stacey Yeong</h3>
+                <h4>Malaysia</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid was patient in understanding my requirements.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/ken.jpg" class="testimonial-img" alt="">
+                <h3>Ken Lyle</h3>
+                <h4>Costa Rica</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>The team worked both hard and intelligently on my project, and we met our goals.  Recommended, and will look to hire again.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/ken.jpg" class="testimonial-img" alt="">
+                <h3>Ken Lyle</h3>
+                <h4>Costa Rica</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Another great task, with some cutting edge ideas (mostly mine) implemented.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/permitech.jpg" class="testimonial-img" alt="">
+                <h3>Permitech</h3>
+                <h4>Ghassan Alabdulgader-CEO</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Task has been completed, Successful.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/fourtytwo.jpg" class="testimonial-img" alt="">
+                <h3>Fourty Two Labs</h3>
+                <h4>Dnyanda Yande-HR</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>We are happy with his work.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/ken.jpg" class="testimonial-img" alt="">
+                <h3>Ken Lyne</h3>
+                <h4>Costa Rica</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>To me, these guys show some inexperience, to be honest.  But they are hard-working and dedicated, and solve problems.  I got  great value for dollars, and hope we will continue to grow together.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/ken.jpg" class="testimonial-img" alt="">
+                <h3>Ken Lyne</h3>
+                <h4>Costa Rica</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Amazing again.  These guys understand quicky, and execute really well.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/mazenet.jpg" class="testimonial-img" alt="">
+                <h3>Mazenet Solution</h3>
+                <h4>Ashok Raj DK-Sr.Web Development/h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Highly recommended, Work completed on time as assured, Output is good.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/saudi.jpg" class="testimonial-img" alt="">
+                <h3>Ali</h3>
+                <h4>Saudi Arabia</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid and his team exceeded my expectations with their professionalism and attention to detail. I would not hesitate to use their services again in the future. Many Thanks Shahid</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/ken.jpg" class="testimonial-img" alt="">
+                <h3>Ken Lyne</h3>
+                <h4>Costa Rica</Ri:a></h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Another amazing deliverable!  This team rocks.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/emad.jpg" class="testimonial-img" alt="">
+                <h3>Emad</h3>
+                <h4>Jordan</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid exceeded my expectations with their professionalism and attention to detail. I would not hesitate to use their services again in the future.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/systemcanada.jpg" class="testimonial-img" alt="">
+                <h3>System Cadana</h3>
+                <h4>Alvin-CEO</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Nice Working with you Shahid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/atul.jpg" class="testimonial-img" alt="">
+                <h3>Atul Gupta</h3>
+                <h4>India</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Very dedicated and great work.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/india.jpg" class="testimonial-img" alt="">
+                <h3>Nikhil</h3>
+                <h4>India</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Good Work</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/anandh.jpg" class="testimonial-img" alt="">
+                <h3>Anandh Prakharan</h3>
+                <h4>India</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid Alam and His team supported really superb. They perfectly done my needs. I recommend him to other clients as well. I hope in future also i will connect with him. Good luck.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/russia.jpg" class="testimonial-img" alt="">
+                <h3>Roman</h3>
+                <h4>Russia</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Thank you and your team very much for the work done! With all my heart !!! as agreed, all tasks were done clearly, a good understanding of the FLUTTER architecture. I recommend you to work with them!!!"</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/atul.jpg" class="testimonial-img" alt="">
+                <h3>Atul Gupta</h3>
+                <h4>India</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid and his team is very dedicated.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/abhay.jpg" class="testimonial-img" alt="">
+                <h3>Abhay Sobti</h3>
+                <h4>India</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>The work has been completed to our satisfaction and the team was friendly, had no hassles and was available to assist. We should work again. Thanks to Shahid and his Team.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+            
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/Kazakhstan.jpg" class="testimonial-img" alt="">
+                <h3>Nauryzbek</h3>
+                <h4>Kazakhstan</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid exceeded my expectations with their professionalism and attention to detail. Team of Highly Experienced Professionals! Great Job!!!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+            
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/india.jpg" class="testimonial-img" alt="">
+                <h3>Sonu</h3>
+                <h4>India</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid did well and completed the work as requested</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+            
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/USA.jpg" class="testimonial-img" alt="">
+                <h3>Moon</h3>
+                <h4>United States</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Successfully Delivered</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+            
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/joseph.jpg" class="testimonial-img" alt="">
+                <h3>Joseph Priyesh</h3>
+                <h4>United States</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>I wanted to take a moment to express my heartfelt thanks for all the help and support you've provided and did an amazing job. Once again, thank you both for the excellent work and support.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+            
+             <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/mazenet.jpg" class="testimonial-img" alt="">
+                <h3>Mazenet Solution</h3>
+                <h4>Ashok Raj DK-Sr.Web Development</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Excellent work! Mr.Shahid Alam Delivered the ATS project on time with great quality. Quick response, clean and efficient code, very professional and reliable. Highly recommended!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Welcome to our portfolio! We are a passionate and experienced development team specializing in building efficient, scalable, and user-friendly digital solutions. Combining diverse expertise in modern web and software development, we leverage the latest technologies to create impactful products tailored to client needs.
+
+Together, we bring creative problem-solving, technical excellence, and collaborative spirit to every project, ensuring that we deliver high-quality solutions that exceed expectations. Explore our work and connect with us for innovative partnerships and transformative digital experiences.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-proglang">Programming Language</li>
+            <li data-filter=".filter-mobile">Mobile App & Design</li>
+            <li data-filter=".filter-ecomlms">E-Commerce & LMS</li>
+            <li data-filter=".filter-network">Network/System & Security</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/php.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/php.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>PHP</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+                      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/java.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/java.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>JAVA</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+                      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/python.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/python.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>PYTHON</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+                        
+                      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/mern.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/mern.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>MERN</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/mean.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/mean.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>MEAN</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+                        
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/mevn.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/mevn.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>MEVN</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/jam.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/jam.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>JAM</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/net.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/net.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>DOTNET</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/devops.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/devops.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>DEVOPS</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/react.jpg" data-gallery="portfolio-gallery-mobile" class="glightbox"><img src="assets/img/portfolio/react.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>REACT NATIVE</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/flutter.jpg" data-gallery="portfolio-gallery-mobile" class="glightbox"><img src="assets/img/portfolio/flutter.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>FLUTTER</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/xamarin.jpg" data-gallery="portfolio-gallery-mobile" class="glightbox"><img src="assets/img/portfolio/xamarin.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>XAMARIN</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+                        
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/cordova.jpg" data-gallery="portfolio-gallery-mobile" class="glightbox"><img src="assets/img/portfolio/cordova.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>CORDOVA PHONEGAP</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+                        
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/figma.jpg" data-gallery="portfolio-gallery-mobile" class="glightbox"><img src="assets/img/portfolio/figma.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>FIGMA</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+                                    
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/design.jpg" data-gallery="portfolio-gallery-mobile" class="glightbox"><img src="assets/img/portfolio/design.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>GRAPHIC DESIGN</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecomlms">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/shopify.jpg" data-gallery="portfolio-gallery-ecomlms" class="glightbox"><img src="assets/img/portfolio/shopify.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>SHOPIFY</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecomlms">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/woocommerce.jpg" data-gallery="portfolio-gallery-ecomlms" class="glightbox"><img src="assets/img/portfolio/woocommerce.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>WOO COMMERCE</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecomlms">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/moodle.jpg" data-gallery="portfolio-gallery-ecomlms" class="glightbox"><img src="assets/img/portfolio/moodle.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>MOODLE</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-network">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/network.jpg" data-gallery="portfolio-gallery-network" class="glightbox"><img src="assets/img/portfolio/network.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>NETWORK ADMINISTRATION</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-network">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/system.jpg" data-gallery="portfolio-gallery-network" class="glightbox"><img src="assets/img/portfolio/system.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>SYSTEM ADMINISTRATION</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-network">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/security.jpg" data-gallery="portfolio-gallery-network" class="glightbox"><img src="assets/img/portfolio/security.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>NETWORK SECURITY</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+                        
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-network">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/cyber.jpg" data-gallery="portfolio-gallery-network" class="glightbox"><img src="assets/img/portfolio/cyber.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>CYBER SECURITY</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+                        
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-network">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/Cisco.jpg" data-gallery="portfolio-gallery-network" class="glightbox"><img src="assets/img/portfolio/Cisco.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>CISCO</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+                                    
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-network">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/Juniper.jpg" data-gallery="portfolio-gallery-network" class="glightbox"><img src="assets/img/portfolio/Juniper.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>JUNIPER</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>We're excited to hear from you! Whether you have a project idea, want to collaborate, or just have questions, feel free to reach out. Our team is committed to providing prompt, friendly, and professional responses.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gx-lg-0 gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-container d-flex flex-column align-items-center justify-content-center">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Imadol, Lalitpur, Bagmati, Nepal</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+977 9801024024</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info.thedimetechnology@gmail.com</p>
+                  <p>afrozhashmi@hotmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-clock flex-shrink-0"></i>
+                <div>
+                  <h3>Open Hours:</h3>
+                  <p>Sun-Sat: 09AM - 09PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade" data-aos-delay="100">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="8" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">THE DIME TECHNOLOGY</span>
+          </a>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li>Web Design</a></li>
+            <li>Web Development</a></li>
+            <li>Product Management</a></li>
+            <li>Marketing</a></li>
+            <li>Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>Imadol</p>
+          <p>Lalitpur, 44700</p>
+          <p>Nepal</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+977 9801024024</span></p>
+          <p><strong>Email:</strong> <span>info.afrozhashmi@hotmail.com</span></p>
+        </div>
+
+      </div>
+    </div>
+    <!-- WhatsApp Chat Button -->
+<a href="https://wa.me/9779801024024?text=Hello%2C%20I%20want%20to%20know%20more%20about%20your%20services" 
+   target="_blank" 
+   class="whatsapp-float">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+       alt="Chat on WhatsApp" 
+       width="60" 
+       height="60">
+</a>
+
+<style>
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;   /* distance from bottom */
+    right: 60px;    /* distance from right */
+    z-index: 1000;  /* keeps it on top of everything */
+  }
+
+  .whatsapp-float img {
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+
+  .whatsapp-float img:hover {
+    transform: scale(1.1);
+  }
+</style>
+
+
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">The Dime Technology</strong> <span>All Rights Reserved 2025</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://shahidalam.com.np/">Afroz Hashmi</a>
+      </div>
+    </div>
+    
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

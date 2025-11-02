@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>The Dime Technology</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Impact
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">info.thedimetechnology@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><i class="bi bi-whatsapp d-flex align-items-center ms-2"></a></i><span><a href="https://wa.me/9779801024024" target="_blank" rel="noopener">+977 9801024024</a></span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    <!-- Place this where you want the date & time to appear (usually in your header) -->
+<div id="datetime" style="text-align: right; font-size: 14px; color: #ffffff; font-weight: 500;"></div>
+
+<script>
+function updateDateTime() {
+  const now = new Date();
+  const options = { 
+    weekday: 'short', year: 'numeric', month: 'short', 
+    day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' 
+  };
+  document.getElementById('datetime').textContent = now.toLocaleDateString('en-US', options);
+}
+
+// Update every second
+setInterval(updateDateTime, 1000);
+updateDateTime();
+</script>
+    </div><!-- End Top Bar -->
+    <!-- End Top Bar -->
+    
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">The Dime Technology</h1>
+          <span>.</span>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html#hero" class="active">Home<br></a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#team">Team</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="our project.html">Our Projects</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section accent-background">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-5 justify-content-between">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2><span>Welcome to </span><span class="accent">The Dime Technology</span></h2>
+            <p>Your Freelance Tech Partner</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="youtube.com/watch?v=_8BO2iAtkWw" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2">
+            <img src="assets/img/hero-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
+        <div class="container position-relative">
+          <div class="row gy-4 mt-5">
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-motherboard-fill"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Ideate</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-easel-fill"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Design</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-file-code-fill"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Develop</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-truck"></i></div>
+                <h4 class="title"><a href="" class="stretched-link">Deliver</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Welcome to our portfolio! We are a passionate and experienced development team specializing in building efficient, scalable, and user-friendly digital solutions. Combining diverse expertise in modern web and software development, we leverage the latest technologies to create impactful products tailored to client needs.
+
+Together, we bring creative problem-solving, technical excellence, and collaborative spirit to every project, ensuring that we deliver high-quality solutions that exceed expectations. Explore our work and connect with us for innovative partnerships and transformative digital experiences.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-proglang">Programming Language</li>
+            <li data-filter=".filter-mobile">Mobile App & Design</li>
+            <li data-filter=".filter-ecomlms">E-Commerce & LMS</li>
+            <li data-filter=".filter-network">Network/System & Security</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-network">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/network.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/network.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>Network Security Create a Unique Topology</a></h4>
+                  <P><b>Project Details</b></P>
+                  <p>1.Create a unique topology for your hands-on project. (CONFIGURATION IS NOT REQUIRED AT THIS POINT)</p>
+                  <p>2.Create an addressing table.</p>
+                  <p>3.Write at least 2 ACL statements. (One standard and one extended)<p>
+                  <p>This statement should describe what the ACL is permitting and deny. This statement is not the command you will use to configure these ACLs.</p>
+                  <p>Requirements for the Topology:</p>
+                  <p>ONLY use packet tracer version 7.2.2</p>
+                  <p>HSRP</p>
+                  <p>Spanning tree</p>
+                  <p>OSPF</p>
+                  <p>VPN</p>
+                  <p>Syslog</p>
+                  <p>NTP</p>
+                  <p>SSH</p>
+                  <p>ACLs</p>
+                  <p>3 or more VLANs on the main LAN</p>
+                  <p>EtherChannel</p>
+                  <p>Radius</p>
+                  <p>Internet Server</p>
+                  <div class="options">
+                  <h6><P><b>Rating & Feedback</b></P><p style="color: #008374;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h6>
+                  </div>
+                  <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>I was very impressed with the quality of work that was delivered. I highly recommend Shahid for any project.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>                 
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-network">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/cyber.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/cyber.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>Someone to Help me Complete my Cybersecurity Project</a></h4>
+                  <P><b>Project Details</b></P>
+                  <p>Hi, I'm looking for someone to help me complete my cybersecurity project? If you can, please let me know your opinion on that?</p>
+                  <div class="options">
+                  <h6><P><b>Rating & Feedback</b></P><p style="color: #008374;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h6>
+                  </div>
+                  <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid and team Successfully completed the project on time. Those guys are awesome to work with.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>                 
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecomlms">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/moodle.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/moodle.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>Dashboard creation in Moodle</a></h4>
+                  <P><b>Project Details</b></P>
+                  <p>In Moodle, we need to create a stunning Dashboard. The Dashboard contains multiple drill down charts. Dashboard Areas are provided below:</p>
+                  <P>Attendance</P>
+                  <P>Time Spend on LMS platform</P>
+                  <P>Over all Quiz </P>
+                  <P>Detailed Quiz</P>
+                  <P>Overall Assignment</P>
+                  <P>Detailed Assignment</P>
+                  <P>Overall Hands on Practice</P>
+                  <P>Detailed Assignment</P>
+                  <P>Overall Projects</P>
+                  <P>Detailed Projects</P>
+                  <P>Course completion %</P>
+                  <P>Question Completion Status (Correct, Wrong, Partially Correct SKipped, Not Viewed, Not Attended)</P>
+                  <P>Test completion Status (Completed, Not Completed, Not Started)</P>
+                  <P>Top Performance Test</P>
+                  <P>Least PErformance Test</P>
+                  <P>Progress Report (Top score, LEast scrore, Average score, Particular Student Score)</P>
+                  <div class="options">
+                  <h6><P><b>Rating & Feedback</b></P><p style="color: #008374;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></h6>
+                  </div>
+                  <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Very efficient, works at a nice pace and is very willing to work with you.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>                 
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+             <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/design.jpg" data-gallery="portfolio-gallery-mobile" class="glightbox"><img src="assets/img/portfolio/design.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>I Need a Freelancer for a Product Promotion Campaign</a></h4>
+                  <P><b>Project Details</b></P>
+                  <p>Al Yousuf Motors is looking for an agency to handle a product promotion campaign on social media, which will include 4 videos & approximately 25 stories.</p>
+                  <div class="options">
+                  <h6><P><b>Rating & Feedback</b></P><p style="color: #008374;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h6>
+                  </div>
+                  <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Shahid did amazing work, I will definitely hire again.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>                 
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/script.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/script.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>Web Audio API Expert Javascript</a></h4>
+                  <P><b>Project Details</b></P>
+                  <p>When we upload the file, we have low high and mid controls.  At this point on uploading the file, we can change low mid and high values and hear on speakers in real time</p>
+                  <p>What Needs to be done by the Freelancer ( Below details will be very easy for those that have worked in WebAudio API to understand what we want )</p>
+                  <p>When we upload the file and then play with low mid and high - it changes audio sound.</p>
+                  <p>We want that with the new function (new code) That changed audio sound - Can we download as well</p>
+                  <p>This is the new functionality that needs to be added into the existing code</p>
+                  <p>The entire work is in Javascript (.JS)</p>
+                  <p>So expert level in (1) WebAudio API is a must followed by expertise in (2) Javascript</p>
+                  <div class="options">
+                  <h6><P><b>Rating & Feedback</b></P><p style="color: #008374;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h6>
+                  </div>
+                  <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Thanks for the great input</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>                 
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/java.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/java.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>Construct a Radius Proxy Server that Handles API based Second factor Authentication MFA and Radius</a></h4>
+                  <P><b>Project Details</b></P>
+                  <p>A.Problem statement: Construct a Radius Proxy server that handles API-based second factor authentication(MFA) and radius server authentication (1FA). The integrating application should just need to update the pointing in order to use MFA services because the request response payload should be consistent with the radius protocol.</p>
+                  <P>B.Solution: Implement a Radius proxy server that will perform the following actions:-</P>
+                  <P>1.Accept username and password as the first factor using radius protocol</P>
+                  <P>2.Authenticate the same to a Radius Server (configuration should be properties file-based)</P>
+                  <P>3.Initiate the second factor of authentication using an API call after the first factor is successfull.</P>
+                  <P>4.The request and response structure must be radius protocol compliant, so that the integrating application does gnot have to undergo and changes. The objective is just to change domain name pointing from an existing radius server to our custom proxy server for enabling MFA.</P>
+                  <P>5.For sending MFA requests the mobile Number/Email id should be fetched from Radius server.</P>
+                  <P>C.Configurations</P>
+                  <P>1.The proxy server should accept radius server connection details(IP/Port).</P>
+                  <P>D.Techology stack</P>
+                  <P>Java/Go</P>
+                  <P>E.Deliverables</P>
+                  <P>1.Source Code</P>
+                  <P>2.Code Explanation document</P>
+                  <P>3.Test case document</P>
+                  <P>4.Demo/Working Solution</P>
+                  <P>4.Integration interfaces</P>
+                  <p>F.Expected Timelines 3 weeks</p>
+                  <div class="options">
+                  <h6><P><b>Rating & Feedback</b></P><p style="color: #008374;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></h6>
+                  </div>
+                  <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>We are happy with his work.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>                 
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/python.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/python.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>Simple Modification to Python Script 2</a></h4>
+                  <P><b>Project Details</b></P>
+                  <p>Update:  I am looking for a Python dev, a professional who knows how to communicate and wants to work with me on this via Google Meet in my Timezone, GMT-7.</p>
+                  <P>If you have been following me, you know I have a nice Python solution that takes a JSON package and does some web scraping, returning businesses and contacts.</P>
+                  <P>It currently writes the results to Postgres.</P>
+                  <P>2.Authenticate the same to a Radius Server (configuration should be properties file-based)</P>
+                  <P>I simply need it to write to MySQL, specifically my WordPress database, with the businesses and contacts in FluentCRM.  Contacts can be created with a call to an existing webhook listener in FluentCRM.  There are API calls for both of these, so we don't actually have to map the database inserts.</P>
+                  <P>I would like to keep the existing database connection block, and add a simple if using a variable like data_destination, that we can add the configuration block.</P>
+                  <P>Probably, if you can use the WP/Fluent API to to the writes it would be better than writing directly to the database.</P>
+                  <div class="options">
+                  <h6><P><b>Rating & Feedback</b></P><p style="color: #008374;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h6>
+                  </div>
+                  <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>The team worked both hard and intelligently on my project, and we met our goals. Recommended, and will look to hire again.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>                 
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/python.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/python.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>Python Scraping to CRM Database</a></h4>
+                  <P><b>Project Details</b></P>
+                  <p>I have a simple Beautiful Soup scraping script that opens a page, opens links that conform to a wildcard format, and returns the contents of a div on the detail page.</p>
+                  <P>I also have a Google spreadsheet that lists the URLs, and the details above.</P>
+                  <P>I need to modify the script to loop over the values form the sheet, and extract the data., and probably write it to a database for safekeeping.</P>
+                  <P>Then, loop over the text blocks and send to ChatGPT in a particular way.</P>
+                  <P>Get the data back and update my CRM database.</P>
+                  <P>Customize the script to not scrape old data, probably using the URL as a key.</P>
+                  <div class="options">
+                  <h6><P><b>Rating & Feedback</b></P><p style="color: #008374;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h6>
+                  </div>
+                  <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Another great task, with some cutting edge ideas (mostly mine) implemented.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>                 
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-proglang">
+              <div class="portfolio-content h-100">
+                <a href="assets/img/portfolio/python.jpg" data-gallery="portfolio-gallery-proglang" class="glightbox"><img src="assets/img/portfolio/python.jpg" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4>Add Contacts to WordPress CRM and ChatGPT Call</a></h4>
+                  <P><b>Project Details</b></P>
+                  <p>Returning enriched data from my data provider, there are 3 contacts x 4 fields, need those inserted.</p>
+                  <P>Also, Call ChatGPT to classify job titles using my existing prompt</P>
+                  <div class="options">
+                  <h6><P><b>Rating & Feedback</b></P><p style="color: #008374;"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h6>
+                  </div>
+                  <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>To me, these guys show some inexperience, to be honest. But they are hard-working and dedicated, and solve problems. I got great value for dollars, and hope we will continue to grow together.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>                 
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+<div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+      <!-- WhatsApp Chat Button -->
+<a href="https://wa.me/9779801024024?text=Hello%2C%20I%20want%20to%20know%20more%20about%20your%20services" 
+   target="_blank" 
+   class="whatsapp-float">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+       alt="Chat on WhatsApp" 
+       width="60" 
+       height="60">
+</a>
+
+<style>
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;   /* distance from bottom */
+    right: 60px;    /* distance from right */
+    z-index: 1000;  /* keeps it on top of everything */
+  }
+
+  .whatsapp-float img {
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+
+  .whatsapp-float img:hover {
+    transform: scale(1.1);
+  }
+</style>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">THE DIME TECHNOLOGY</span>
+          </a>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li>Web Design</a></li>
+            <li>Web Development</a></li>
+            <li>Product Management</a></li>
+            <li>Marketing</a></li>
+            <li>Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>Imadol</p>
+          <p>Lalitpur, 44700</p>
+          <p>Nepal</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+977 9801024024</span></p>
+          <p><strong>Email:</strong> <span>info.afrozhashmi@hotmail.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p><span>Copyright</span> <strong class="px-1 sitename">The Dime Technology</strong> <span>All Rights Reserved 2025</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">Afroz Hashmi</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
